@@ -1,10 +1,4 @@
 'use strict';
-/*
-1) find all hashtags
-2) save all hashtags
-3) display all hashtags
-4) onclick hashtag, light them up in cv
-*/
 
 const navigationItems = document.querySelectorAll('.navigation__item');
 const articles = document.querySelectorAll('.article');
