@@ -1,6 +1,6 @@
-package-lock.json
-.htaccess
 /node_modules
-.parcel-cache
+/.parcel-cache
 /dist
+.htaccess
 .DS_Store
+package-lock.json
