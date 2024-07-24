@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/style.scss" />
+    <link rel="stylesheet" href="src/css/style.css" />
     <script defer src="src/js/script.js"></script>
     <title>Philipp Oswald - Developer</title>
   </head>
   <body>
     <div class="wrapper">
-      <section class="header">
+      <header class="header">
+        <img
+          class="header__image"
+          src="src/img/philipp.png"
+          alt="Philipp Photo"
+        />
         <div class="personal">
-          <img
-            class="personal__image"
-            src="src/img/philipp.jpg"
-            alt="Philipp IMG"
-          />
           <h1 class="personal__name">Philipp Oswald</h1>
-          <h2 class="personal__profession">Web Developer</h2>
+          <h2 class="personal__profession">Full Stack Web Developer</h2>
           <div class="personal__description">
             German & English, Male, 1997, DE Berlin
           </div>
@@ -28,24 +28,24 @@
             <a href="https://github.com/derlippo" target="_blank">Github</a>
           </div>
         </div>
+      </header>
+      <main class="body">
         <ul class="skills">
           <li class="skills__item">Windows</li>
           <li class="skills__item">MacOS</li>
           <li class="skills__item">Linux</li>
           <li class="skills__item">API</li>
           <li class="skills__item">JavaScript</li>
-          <li class="skills__item">NodeJS</li>
+          <li class="skills__item">Node.js</li>
           <li class="skills__item">SQL</li>
           <li class="skills__item">PHP</li>
           <li class="skills__item">HTML5</li>
-          <li class="skills__item">CSS</li>
+          <li class="skills__item">CSS3</li>
           <li class="skills__item">SASS</li>
           <li class="skills__item">MariaDB</li>
           <li class="skills__item">MongoDB</li>
           <li class="skills__item">Typo3</li>
         </ul>
-      </section>
-      <section class="body">
         <ul class="navigation">
           <li class="navigation__item navigation__item--active" data-type="all">
             Overview
@@ -54,70 +54,113 @@
           <li class="navigation__item" data-type="education">Education</li>
         </ul>
         <div class="articleWrapper">
+          <article class="article" data-type="experience">
+            <div class="article__left">
+              <h2 class="article__title">Online Portfolio</h2>
+              <h4 class="article__date">06.2024 - 07.2024</h4>
+            </div>
+            <div class="article__right">
+              <h3 class="article__subtitle">Web Development</h3>
+              <p class="article__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                sed itaque maxime unde ullam maiores ea. Ipsam eum dignissimos
+                est iure earum voluptates, eligendi ipsa pariatur fugiat quae
+                dolores eius!
+              </p>
+              <div class="skills">
+                <div class="skills__item">HTML5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">MacOS</div>
+              </div>
+            </div>
+          </article>
           <article class="article" data-type="education">
             <div class="article__left">
               <h2 class="article__title">JavaScript Course</h2>
+              <h4 class="article__date">04.2024 - 06.2024</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2024 - 2024</h4>
-              <h3 class="article__subtitle"></h3>
+              <h3 class="article__subtitle">Study</h3>
               <p class="article__text">
-                Einen umfassenden JavaScript-Kurs abgeschlossen, der sowohl
-                Grundlagen als auch fortgeschrittene Themen abdeckte. Expertise
-                in modernem JavaScript (ES6+), asynchroner Programmierung und
-                objektorientierten Prinzipien erworben. Sechs praxisnahe
-                Projekte gebaut, dabei Projektarchitektur und praktische
-                Programmierfähigkeiten gelernt. Vertraut mit Entwicklungstools
-                wie NPM, Parcel, Babel und ES6-Modulen.
-                Problem-solving-Fähigkeiten und Entwicklungsabläufe durch
-                zahlreiche Herausforderungen und Aufgaben verbessert. Für
-                fortgeschrittene Frameworks und professionelle
-                Webentwickler-Rollen vorbereitet.
+                Completed a comprehensive JavaScript course covering both
+                fundamental and advanced topics. Gained expertise in modern
+                JavaScript (ES6+), asynchronous programming, and object-oriented
+                principles. Built six hands-on projects, learning project
+                architecture and practical programming skills. Familiar with
+                development tools like NPM, Parcel, Babel, and ES6 modules.
+                Improved problem-solving skills and development workflows
+                through numerous challenges and assignments. Prepared for
+                advanced frameworks and professional web developer roles.
               </p>
+              <div class="skills">
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">MacOS</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="experience">
             <div class="article__left">
               <h2 class="article__title">Short Cuts GmbH, Berlin</h2>
+              <h4 class="article__date">09.2023 - 12.2023</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2023-2023</h4>
               <h3 class="article__subtitle">Web Developer</h3>
               <p class="article__text">
-                Technische Umsetzung von Screendesigns. Installation &
-                Konfiguration von TYPO3, Migration & Templates hin zu TYPO3.
-                Konzeptionelle Unterstützung bei der Umsetzung neuer
-                Webprojekte. Technologien: #HTML, #CSS, #JavaScript, #TYPO3
+                Technical implementation of screen designs. Installation &amp;
+                configuration of TYPO3, migration and templates to TYPO3.
+                Conceptual support in the implementation of new web projects.
               </p>
+              <div class="skills">
+                <div class="skills__item">HTML5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">SCSS</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">SQL</div>
+                <div class="skills__item">MariaDB</div>
+                <div class="skills__item">Typo3</div>
+                <div class="skills__item">MacOS</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="experience">
             <div class="article__left">
               <h2 class="article__title">DNS:NET, Berlin</h2>
+              <h4 class="article__date">06.2022 - 08.2023</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2022-2023</h4>
               <h3 class="article__subtitle">Technical Support Agent</h3>
               <p class="article__text">
-                Entstörung, Beratung und Betreuung der Kunden. Fähigkeiten:
-                #Kundenservice, #technische #Problemlösung
+                Incident resolution, consulting, and customer support.
               </p>
+              <div class="skills">
+                <div class="skills__item">Customer Service</div>
+                <div class="skills__item">MacOS</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="experience">
             <div class="article__left">
               <h2 class="article__title">Libfast.com, Berlin</h2>
+              <h4 class="article__date">03.2021 - 05.2022</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2021-2022</h4>
               <h3 class="article__subtitle">Development</h3>
               <p class="article__text">
-                Entwicklung und Optimierung einer dynamischen
-                Frage-Antwort-Plattform. Implementierung interaktiver
-                Frontend-Features und Entwicklung robuster Backend-Lösungen,
-                einschließlich API-Entwicklung und Datenbankmanagement.
-                Technologien: #ReactJS, #PHP, #SQL
+                Development and optimization of a dynamic question-and-answer
+                platform. Implementation of interactive frontend features and
+                development of robust backend solutions, including API
+                development and database management.
               </p>
+              <div class="skills">
+                <div class="skills__item">HTML5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">ReactJS</div>
+                <div class="skills__item">PHP</div>
+                <div class="skills__item">SQL</div>
+                <div class="skills__item">MariaDB</div>
+                <div class="skills__item">Windows</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="education">
@@ -125,46 +168,66 @@
               <h2 class="article__title">
                 cimdata Bildungsakademie GmbH, Berlin
               </h2>
+              <h4 class="article__date">07.2018 - 08.2021</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2018-2021</h4>
-              <h3 class="article__subtitle">Ausbildung</h3>
+              <h3 class="article__subtitle">Education</h3>
               <p class="article__text">
-                Ausbildung zum Fachinformatiker für Anwendungsentwicklung
-                erfolgreich absolviert.
+                Successfully completed training as an IT specialist in
+                application development.
               </p>
+              <div class="skills">
+                <div class="skills__item">HTML5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">PHP</div>
+                <div class="skills__item">SQL</div>
+                <div class="skills__item">Java</div>
+                <div class="skills__item">C++</div>
+                <div class="skills__item">Windows</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="experience">
             <div class="article__left">
               <h2 class="article__title">CodeClicker.com, Berlin</h2>
+              <h4 class="article__date">02.2014 - 09.2018</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2014-2018</h4>
-              <h3 class="article__subtitle">Selbstständigkeit</h3>
+              <h3 class="article__subtitle">Freelance</h3>
               <p class="article__text">
-                Entwicklung und Betrieb von CodeClicker, einer Plattform zur
-                Punkteverdienung mit Option auf Auszahlungen. Zuständig für die
-                Gestaltung des Frontends und die Implementierung der
-                Backend-Logik. Technologien: #HTML, #CSS, #JavaScript, #jQuery,
-                #PHP, #SQL
+                Development and operation of CodeClicker, a platform for earning
+                points with payout options. Responsible for designing the
+                frontend and implementing the backend logic.
               </p>
+              <div class="skills">
+                <div class="skills__item">HTML</div>
+                <div class="skills__item">CSS</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">PHP</div>
+                <div class="skills__item">SQL</div>
+                <div class="skills__item">MariaDB</div>
+                <div class="skills__item">Windows</div>
+              </div>
             </div>
           </article>
           <article class="article" data-type="education">
             <div class="article__left">
               <h2 class="article__title">Hein-Moeller-Schule, Berlin</h2>
+              <h4 class="article__date">08.2013 - 07.2014</h4>
             </div>
             <div class="article__right">
-              <h4 class="article__date">2013-2014</h4>
-              <h3 class="article__subtitle"></h3>
+              <h3 class="article__subtitle">School</h3>
               <p class="article__text">
-                Mit dem mittleren Schulabschluss erfolgreich absolviert.
+                Successfully completed with an intermediate school certificate.
               </p>
+              <div class="skills">
+                <div class="skills__item">Electrical engineering</div>
+              </div>
             </div>
           </article>
         </div>
-      </section>
+      </main>
     </div>
   </body>
 </html>
