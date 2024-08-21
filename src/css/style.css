@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root {
-  --color-primary: #3366ff;
+  --color-primary: #2b438b;
   /* Ein kräftiges Blau */
-  --color-primary-light: #6699ff;
+  --color-primary-light: #3856b2;
   /* Ein helleres Blau */
-  --color-primary-dark: #0033cc;
+  --color-primary-dark: #1f3064;
   /* Ein dunkleres Blau */
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
@@ -34,8 +34,8 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
-  color: var(--color-grey-dark);
+  background-image: linear-gradient(to right bottom, var(--color-grey-dark-3), var(--color-grey-dark-2));
+  color: var(--color-grey-dark-1);
   text-align: left; }
 
 a {
@@ -125,7 +125,7 @@ li {
       .personal__name {
         font-size: 4.75rem; } }
   .personal__profession {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-weight: 500; }
     @media screen and (max-width: 99999em) {
       .personal__profession {
@@ -143,7 +143,7 @@ li {
       .personal__profession {
         font-size: 2rem; } }
   .personal__description {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     font-weight: 500; }
     @media screen and (max-width: 99999em) {
       .personal__description {
@@ -165,7 +165,7 @@ li {
     background-clip: text;
     -webkit-text-fill-color: transparent; }
   .personal__links {
-    margin-top: 1.5rem; }
+    margin-top: 1.75rem; }
     @media screen and (max-width: 99999em) {
       .personal__links {
         font-size: 2.5rem; } }
@@ -184,6 +184,10 @@ li {
     @media screen and (max-width: 31.25em) {
       .personal__links {
         font-size: 1.5rem; } }
+    .personal__links :hover {
+      cursor: pointer;
+      background-color: #fff;
+      color: var(--color-primary); }
 
 .articleWrapper {
   padding: 2.5rem; }
@@ -196,9 +200,9 @@ li {
   align-items: center; }
   .skills__item {
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-light);
     font-weight: 700;
-    border: 1px solid var(--color-primary-light);
+    border: 1px solid var(--color-primary-dark);
     border-radius: 4px;
     margin: 0.25rem;
     transition: 0.2s; }
@@ -206,7 +210,7 @@ li {
       .skills__item {
         line-height: 2.5rem;
         font-size: 1.5rem;
-        padding: 1.25rem; } }
+        padding: 1rem; } }
     @media screen and (max-width: 68.75em) {
       .skills__item {
         line-height: 2.25rem;
@@ -227,7 +231,7 @@ li {
         line-height: 1.75rem;
         font-size: 1rem;
         padding: 0.5rem; } }
-    .skills__item:hover {
+    .skills__item--hover:hover {
       cursor: pointer;
       background-color: #fff;
       color: var(--color-primary); }
@@ -282,7 +286,7 @@ li {
     text-overflow: ellipsis;
     background-color: var(--color-grey-light-3);
     margin: 0 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 1.2rem; }
   .article__title {
     text-align: center;
@@ -325,7 +329,8 @@ li {
       .article__subtitle {
         font-size: 1.25rem; } }
   .article__text {
-    padding: 0.25rem 0.5rem 0.5rem 0.5rem; }
+    padding: 0.5rem;
+    text-align: justify; }
     @media screen and (max-width: 99999em) {
       .article__text {
         font-size: 1.75rem; } }
@@ -413,7 +418,7 @@ li {
   flex-direction: column;
   background-color: #fff;
   box-shadow: var(--shadow-dark);
-  background-color: var(--color-grey-light-1);
+  background-color: var(--color-grey-light-3);
   border-radius: 0.3rem;
   margin: 5rem 0; }
 
@@ -422,7 +427,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--color-grey-light-3);
   margin-top: 2.5rem; }
   @media only screen and (max-width: 56.25em) {
     .header {
@@ -441,5 +446,5 @@ li {
 .main {
   width: 100%;
   flex-direction: column;
-  background-color: var(--color-grey-light-1);
+  background-color: var(--color-grey-light-3);
   overflow: hidden; }
