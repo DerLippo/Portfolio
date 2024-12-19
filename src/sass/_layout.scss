@@ -1,3 +1,4 @@
+@use './variables' as var;
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -16,7 +17,7 @@
   background-color: var(--color-grey-light-3);
   margin-top: 2.5rem;
 
-  @media only screen and (max-width: $bp-medium) {
+  @media only screen and (max-width: var.$bp-medium) {
     flex-direction: column;
     justify-content: center;
   }
@@ -28,7 +29,7 @@
     margin-left: 2.5rem;
     aspect-ratio: 1/1;
 
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       margin-left: 0rem;
     }
   }

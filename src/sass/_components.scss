@@ -1,6 +1,8 @@
 ////////////////////
 /// Skills
 ////////////////////
+@use './variables' as var;
+
 .skills {
   margin: 1.5rem 0 1.5rem 0;
   display: flex;
@@ -17,27 +19,27 @@
     margin: 0.25rem;
     transition: 0.2s;
 
-    @media screen and (max-width: $bp-largest) {
+    @media screen and (max-width: var.$bp-largest) {
       line-height: 2.5rem;
       font-size: 1.5rem;
       padding: 1rem;
     }
-    @media screen and (max-width: $bp-large) {
+    @media screen and (max-width: var.$bp-large) {
       line-height: 2.25rem;
       font-size: 1.25rem;
       padding: 1rem;
     }
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       line-height: 2rem;
       font-size: 1.25rem;
       padding: 0.75rem;
     }
-    @media screen and (max-width: $bp-small) {
+    @media screen and (max-width: var.$bp-small) {
       line-height: 1.75rem;
       font-size: 1rem;
       padding: 0.5rem;
     }
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: var.$bp-smallest) {
       line-height: 1.75rem;
       font-size: 1rem;
       padding: 0.5rem;
@@ -68,7 +70,7 @@
   border: 0.5rem solid var(--color-primary-dark);
   padding: 1rem;
 
-  @media screen and(max-width: $bp-medium) {
+  @media screen and (max-width: var.$bp-medium) {
   }
 
   &__left {
@@ -87,19 +89,19 @@
     padding: 0.25rem 0.5rem 0 0.5rem;
     color: var(--color-grey-dark-1);
 
-    @media screen and (max-width: $bp-largest) {
+    @media screen and (max-width: var.$bp-largest) {
       font-size: 1.5rem;
     }
-    @media screen and (max-width: $bp-large) {
+    @media screen and (max-width: var.$bp-large) {
       font-size: 1.25rem;
     }
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       font-size: 1.25rem;
     }
-    @media screen and (max-width: $bp-small) {
+    @media screen and (max-width: var.$bp-small) {
       font-size: 1.25rem;
     }
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: var.$bp-smallest) {
       font-size: 1.25rem;
     }
   }
@@ -123,19 +125,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
 
-    @media screen and (max-width: $bp-largest) {
+    @media screen and (max-width: var.$bp-largest) {
       font-size: 2.25rem;
     }
-    @media screen and (max-width: $bp-large) {
+    @media screen and (max-width: var.$bp-large) {
       font-size: 2rem;
     }
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       font-size: 1.75rem;
     }
-    @media screen and (max-width: $bp-small) {
+    @media screen and (max-width: var.$bp-small) {
       font-size: 1.5rem;
     }
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: var.$bp-smallest) {
       font-size: 1.25rem;
     }
   }
@@ -144,19 +146,19 @@
     color: var(--color-primary-dark);
     padding: 0.25rem 0.5rem 0 0.5rem;
 
-    @media screen and (max-width: $bp-largest) {
+    @media screen and (max-width: var.$bp-largest) {
       font-size: 2.25rem;
     }
-    @media screen and (max-width: $bp-large) {
+    @media screen and (max-width: var.$bp-large) {
       font-size: 2rem;
     }
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       font-size: 1.75rem;
     }
-    @media screen and (max-width: $bp-small) {
+    @media screen and (max-width: var.$bp-small) {
       font-size: 1.5rem;
     }
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: var.$bp-smallest) {
       font-size: 1.25rem;
     }
   }
@@ -164,19 +166,19 @@
     padding: 0.5rem;
     text-align: justify;
 
-    @media screen and (max-width: $bp-largest) {
+    @media screen and (max-width: var.$bp-largest) {
       font-size: 1.75rem;
     }
-    @media screen and (max-width: $bp-large) {
+    @media screen and (max-width: var.$bp-large) {
       font-size: 1.5rem;
     }
-    @media screen and (max-width: $bp-medium) {
+    @media screen and (max-width: var.$bp-medium) {
       font-size: 1.25rem;
     }
-    @media screen and (max-width: $bp-small) {
+    @media screen and (max-width: var.$bp-small) {
       font-size: 1.25rem;
     }
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: var.$bp-smallest) {
       font-size: 1.25rem;
     }
   }
