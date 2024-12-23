@@ -1,15 +1,20 @@
-
 # Portfolio von Philipp Oswald
 
 Willkommen zu meinem Portfolio-Projekt! 🚀  
-Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickler.  
+Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickler.
 
-🌐 **Website ansehen:** [philipposwald.de](https://philipposwald.de)  
+🌐 **Website ansehen:** [philipposwald.de](https://philipposwald.de)
 
 ---
 
 ## 🌟 **Changelog**
-### **Version 1.1.0**
+
+### **Version 1.1.1**
+
+- .gitignore angepasst
+
+### Version 1.1.0
+
 - **Refaktorierung**:
   - `node-sass` deinstalliert und durch `sass` ersetzt.
   - `@import` entfernt und durch `@use` ersetzt.
@@ -19,6 +24,7 @@ Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickl
 ---
 
 ## ✨ **Features**
+
 - **Modernes Design:** Responsives und nutzerfreundliches Interface.
 - **Technologien:** Verwendung moderner Tools und Frameworks.
 - **Skalierbarkeit:** Klare und wartbare Code-Struktur.
@@ -26,6 +32,7 @@ Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickl
 ---
 
 ## 🛠️ **Technologien und Werkzeuge**
+
 - **Frontend**: HTML5, CSS3 (Sass), JavaScript
 - **Backend**: Node.js, PHP
 - **Datenbanken**: MySQL, MongoDB
@@ -46,6 +53,7 @@ Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickl
 ---
 
 ## 📜 **Setup und Installation**
+
 1. Klone das Repository:
    ```bash
    git clone https://github.com/DerLippo/Portfolio.git
@@ -63,6 +71,7 @@ Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickl
 ---
 
 ## 👤 **Kontakt**
+
 📧 E-Mail: [contact@philipposwald.de](mailto:contact@philipposwald.de)  
 🌍 Website: [philipposwald.de](https://philipposwald.de)  
 🐙 GitHub: [DerLippo](https://github.com/DerLippo)
@@ -70,5 +79,5 @@ Dieses Projekt repräsentiert meine Fähigkeiten und Erfahrungen als Webentwickl
 ---
 
 ## ⚙️ **Lizenz**
-Dieses Projekt ist lizenziert unter der [MIT-Lizenz](LICENSE).
 
+Dieses Projekt ist lizenziert unter der [MIT-Lizenz](LICENSE).
